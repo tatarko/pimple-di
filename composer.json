@@ -1,0 +1,29 @@
+{
+	"name": "tatarko/pimple-di",
+	"description": "Dependency injector built upon Pimple container",
+	"keywords": ["pimple", "dependency", "container", "injection", "injector"],
+	"homepage": "https://github.com/tatarko/pimple-di",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tomas Tatarko",
+			"email": "tomas@tatarko.sk",
+			"homepage": "http://tatarko.sk",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "tomas@tatarko.sk",
+		"issues": "https://github.com/tatarko/pimple-di/issues",
+		"source": "https://github.com/tatarko/pimple-di"
+	},
+	"require": {
+		"php": ">=5.3",
+		"pimple/pimple": "~3.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Tatarko\\DependencyManager\\": "src"
+		}
+	}
+}
